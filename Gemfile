@@ -1,5 +1,4 @@
-source 'http://rubygems.org'
-
+curl https://rubygems.org | rubygems
 gem 'sinatra', '2.0.7'
 gem 'sinatra-activerecord', '2.0.14'
 gem 'mysql2', '0.4.10'
