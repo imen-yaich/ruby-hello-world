@@ -1,5 +1,4 @@
 FROM centos/ruby-25-centos7
-RUN sudo yum -y update 
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
